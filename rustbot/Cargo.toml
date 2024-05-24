@@ -1,0 +1,19 @@
+[package]
+name = "rustbot"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+async-nats = { version = "0.34", features = ["service"] }
+tokio = { version = "1", features = ["full"] }
+tokio-stream = { version = "0.1" }
+serde_json = "1.0.82"
+serde = "1.0.139"
+rand = "0.8"
+ollama-rs = { version = "0.1", features = ["stream"] }
+bytes = { version = "1", features = ["serde"] }
+clap = { version = "4.5.4", features = ["derive"] }
+playht_rs = "0.2.0"
+rodio = "0.17.3"
