@@ -3,10 +3,6 @@
 This is a PoC demonstrating how two bots can autonomously "speak" to each other using an [LLM](https://en.wikipedia.org/wiki/Large_language_model) and [TTS](https://simple.wikipedia.org/wiki/Text_to_speech).
 It uses [NATS jetstream](https://docs.nats.io/nats-concepts/jetstream) for message routing, [ollama](https://ollama.com/) for generating text using an LLM of the user's choice and [playht](https://play.ht) API for TTS speech synthesis.
 
-[![Build Status](https://github.com/milosgajdos/bot-banter/workflows/CI/badge.svg)](https://github.com/milosgajdos/bot-banter/actions?query=workflow%3ACI)
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/milosgajdos/bot-banter)
-[![License: Apache-2.0](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
 > [!IMPORTANT]
 > This project was built purely for educational purposes and thus is likely ridden with bugs, inefficiencies, etc.
 > You should consider this project as highly experimental.
